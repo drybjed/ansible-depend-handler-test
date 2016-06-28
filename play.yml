@@ -1,0 +1,17 @@
+#!/usr/bin/ansible-playbook --inventory=hosts
+---
+
+- hosts: localhost
+
+  roles:
+
+    - role: role-with-dependencies
+
+- hosts: localhost
+
+  roles:
+
+    - role: dependency-one
+    - role: dependency-two
+    - role: role-no-dependencies
+

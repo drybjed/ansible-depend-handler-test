@@ -1,0 +1,5 @@
+---
+
+- name: Dependent Handler 1
+  command: 'ls /'
+

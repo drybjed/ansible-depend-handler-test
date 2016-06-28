@@ -1,0 +1,6 @@
+---
+
+- name: Notify Handler 1
+  command: 'ls /'
+  notify: [ 'Handler 1' ]
+

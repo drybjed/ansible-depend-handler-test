@@ -1,0 +1,6 @@
+---
+
+- name: Notify Dependent Handler 2
+  command: 'ls /'
+  notify: [ 'Dependent Handler 2' ]
+

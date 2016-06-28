@@ -1,0 +1,8 @@
+---
+
+dependencies:
+
+  - role: dependency-one
+
+  - role: dependency-two
+
